@@ -147,7 +147,7 @@ int main(int argc, char* argv[]){
 			printf("Connection closed.\n");
 			
 		buff[bytes_received] = '\0';
-		printf("Reply: %s\n", buff);
+		printf("%s\n", buff);
 		
 		// if(strcmp(buff, "Logout successful") == 0) break;
 	}
